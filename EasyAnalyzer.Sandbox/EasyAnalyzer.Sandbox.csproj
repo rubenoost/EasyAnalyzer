@@ -2,7 +2,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\EasyAnalyzer.Abstractions\EasyAnalyzer.Abstractions.csproj" />
-    <ProjectReference Include="..\EasyAnalyzer.Analyzer\EasyAnalyzer.Analyzer.csproj" />
+    <ProjectReference Include="..\EasyAnalyzer.Analyzer\EasyAnalyzer.Analyzer.csproj" OutputItemType="Analyzer" ReferenceOutputAssembly="false" />
   </ItemGroup>
 
   <PropertyGroup>
